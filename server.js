@@ -42,7 +42,7 @@ app.use(cors());
 app.use(passport.initialize());
 
 app.get("/",(req,res)=>{
-    res.send(<h1>listening</h1>);
+    res.send("<h1>listening</h1>");
 })
 
 app.post("/api/user/register", (req, res) => {
